@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
   padding: 40px 0px 20px 20px;
 }
@@ -87,7 +87,7 @@ main {
 }
 
 main input {
-  font-size: 25px;
+  font-size: 20px;
   background: #fff;
   border: 1px solid #111;
   padding: 0px 30px;
@@ -98,7 +98,7 @@ main input {
 }
 
 main p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     padding-bottom: 20px;
 }
@@ -110,7 +110,7 @@ main h2 {
 }
 
 main li {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
 }
 
