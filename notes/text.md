@@ -1,4 +1,8 @@
 
+(Content drafts, urls for image sources, general notes)
+
+About draft
+
 "What Can I See Tonight?" is a site for amateur astronomers. More specifically, WCIST focuses on the practical needs and questions of someone starting out (in other words, you own a telescope or set of binoculars, but you're not entirely sure of what to do with it). Topics include "Where Can I Find a Flash Light that Doesn't Blind Me (and is there an App for that?)" and "Why Does High Humidity Mess up my Viewing so Much?""
 
 However, we can't promise not to flash the occasional Hubble telescope eye candy!
@@ -6,7 +10,7 @@ However, we can't promise not to flash the occasional Hubble telescope eye candy
 "What Can I See Tonight?" is produced by Jen Stevens, who started doing astronomy in a dry climate with relatively low light pollution. She now lives in a humid climate with high light pollution.
 
 
-
+Blog post drafts
 
 Why Does High Humidity Mess Up my Viewing So Much?
 
@@ -72,5 +76,38 @@ There are light pollution charts out there you can use to get an idea of where t
 
 ----
 
+Why this Site?
+
+Several years ago, I was a casual backyard astronomer. My father had a small collection of telescopes, and we used to go to local star parties. I spent several summer nights sleeping outside in the backyard in order to learn constallations (which is probably why I am much better at the summer than winter sky). Then I went to college and grad school. I did have a set of binoculars, and my father lent me one of his smaller telescopes for a while, but I didn't do a lot of astronomy. Most of the places that I lived in had a lot of light pollution, and so it wasn't easy to just go out and look at things.
+
+I'm back it now. Last Christmas, my husband gave me a telescope and an impressive box of lenses. I (still) live in an area with a lot of light pollution, so we're mostly limited to the moon and a few of the brighter stars. A few weeks ago we went on a retreat in Warrenton, Virginia. Thinking that it'd be dark compared to the Washington D.C. metro area, we packed up the telescope.
+
+Warrenton as a whole may have dark skies, but our particular part did not. This was partly because the farm that we were staying was full of security lights. However, there were still probably things that we could have seen had we been prepared. 
+
+But of course we wern't. We couldn't figure out why the sky seemed so hazy (high humidity, which in turn also diffuses light, which made those security lights even brighter). We weren't sure when the moon would rise. And if there was a meteor shower, we were clueless.
+
+We did have our phones, of course, and we did use them to look up things like moon phases, but every time we checked something on one of them, it took our eyes a good five minutes to readjust enough to see what few stars were visible.
+
+
+
 Hubble Image of the Day
 http://www.nasa.gov/mission_pages/hubble/main/index.html
+
+NASA wall paper image (Virgo galaxy cluster)
+http://www.jpl.nasa.gov/spaceimages/wallpaper.php?id=PIA07906
+
+Telescope image from https://pixabay.com/en/photos/telescope/ (for credits - unlimited use/modifications)
+
+old link hover color:
+a:hover {
+  color: #bb86b0;
+}
+
+old menu bar background color: #d9d9d9;
+
+Loznice Color Palette
+http://www.color-hex.com/color-palette/194
+
+interesting design idea (use of a semi transparent
+ body over a star field background - http://theguvnah.blogspot.com/)
+)
