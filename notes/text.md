@@ -82,7 +82,7 @@ Several years ago, I was a casual backyard astronomer. My father had a small col
 
 I'm back it now. Last Christmas, my husband gave me a telescope and an impressive box of lenses. I (still) live in an area with a lot of light pollution, so we're mostly limited to the moon and a few of the brighter stars. A few weeks ago we went on a retreat in Warrenton, Virginia. Thinking that it'd be dark compared to the Washington D.C. metro area, we packed up the telescope.
 
-Warrenton as a whole may have dark skies, but our particular part did not. This was partly because the farm that we were staying was full of security lights. However, there were still probably things that we could have seen had we been prepared. 
+Warrenton as a whole may have dark skies, but our particular part did not. This was partly because the farm that we were staying was full of security lights. However, there were still probably things that we could have seen had we been prepared.
 
 But of course we wern't. We couldn't figure out why the sky seemed so hazy (high humidity, which in turn also diffuses light, which made those security lights even brighter). We weren't sure when the moon would rise. And if there was a meteor shower, we were clueless.
 
@@ -111,3 +111,61 @@ http://www.color-hex.com/color-palette/194
 interesting design idea (use of a semi transparent
  body over a star field background - http://theguvnah.blogspot.com/)
 )
+
+Stuff from the blog.html page:
+
+<h2>Getting Started</h2>
+  <p>
+    So you want to do observational astronomy. Excellent plan. So off you go to buy a telescope.
+  </p>
+  <p>
+    Only there are a lot of telescopes to choose from. Reflective, refractive, which to choose? What size to get? And many of them aren't cheap. You might pay a lot for something that a) doesn't suit your needs and b) turns out to be less fun than you thought.
+  </p>
+  <p>
+    So what do you really need to get started?
+  </p>
+  <p class="readmore"><a href="#">Read More</a></p>
+  <p class="hide" id="show-this-on-click">
+
+    Binoculars.
+  </p>
+  <p>
+    Binoculars are a) generally less expensive b) easier to aim c) something that many of us already own.
+  </p>
+  <p>
+    Of course, a given pair of binoculars won't necessarily be cheaper than a given telescope, but in general, you can get higher magnification for a lower cost. They're certainly no replacement for a telescope (for one thing, it's harder to aim it for someone else to look through), but they're certainly a decent way to get started. Even after getting a telescope, I still use my mine from time to time.
+  </p>
+  <p>
+    The next thing you'll need are star charts. There are a number of them on paper (growing up, my favorite one was essentially a big circle with a revolving window that you could adjust according to the time and date that came with my National Geographic Our Universe book). However, there are a growing number of IOS and Android apps that will let you literally point your phone at the sky to see what (theoretically) is there. Or at least would be if you had ideal viewing conditions.
+  </p>
+  <p>
+    However, even with star charts, most people still use constallations as a general method for navigating and referring to specific parts of the sky. Constallations usually have stories attached, and can be a lot of fun to learn. There are several guides to them; my own favorite is H.A. Rey's The Stars: A New Way to See Them. There are also a number of IOS and Android phone apps that can help you.
+  </p>
+  <p>
+    Finally, I recommend some kind of red tinted flashlight (my Dad used to make them by rubber banding red cellophane over a flashlight, but you can buy special red LED flashlights now). Even in light polluted areas like mine, it can be really easy to drop lenses and filters in the dark. Unlike white "normal" light, red light won't blind you (and require another 20 minutes to adjust to seeing the night sky properly).
+  </p>
+  <p>
+    Given that I use my IPhone so much as a flashlight (as well as for looking stuff up at the last minute), I've been trying to find some kind of app that would make my IPhone's screens red tinted. However, not surprisingly, that's apparently really hard to do (the app would essentially have to turn all of the other apps' screens red). (Most astronomy apps do a have a red screen setting, at least) I may just have follow my Dad's lead and tape some red cellophane over my phone!
+</p>
+<p class="readless hide"><a href="#">Read Less</a></p>
+-->       </article>
+
+<h2>Light Pollution</h2>
+<p>
+    Unless you literally live in the middle of no where, you are highly likely to experience this.   Unfortunately, there isn't much you can aside from (short term) go somewhere else to look at the stars (long term) advocate for less light pollution (probably a failing effort, sadly). There are telescope filters that can reduce the glare at least somewhat, though.
+</p>
+<!--
+<p>
+    When I lived in Boulder, Colorado, about 50 miles from Denver, you could literally see a reddish glow in the sky at night from all of the light pollution. Given that everything else in Boulder seemed so "natural" (bike trails through parks filled with trees, the Flatirions, Alfalfas...), I always found that incredibly ironic.
+</p>
+<p>
+    What causes light pollution?
+</p>
+<p>
+    The most immediate and obvious answer is light. Street lights, house lights, car lights. In general, a higher population tends to emit more light at night (perhaps most easily seen from a plane at night). However, local environmental conditions can also exacerbate that light - for instance, when the humidity get high enough, individual bits of air vapor (aerosols) literally scatter light across the sky.
+</p>
+<p>
+    There are light pollution charts out there you can use to get an idea of where to go to escape it (they also show how it's gotten worse over time). Ultimately, for those of us who experience it, light pollution can turn even casual observational astronomy from something you do on a "regular" evening into something that requires a special trip and degree of effort, and "backyard astronomy," becomes "back country astronomy."
+</p>
+-->
+</section>

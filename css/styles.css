@@ -24,8 +24,9 @@ body {
 }
 
 .container {
-    margin: auto;
-    width: 600 px;
+    margin: 0px auto;
+    max-width: 1200px;
+    width: 100%;
 }
 
 header {
@@ -47,9 +48,7 @@ header li {
 }
 
 .container-menu {
-  height: 50px;
   background-color: #a69eb0;
-  /*background-color: #d9d9d9;*/
 }
 
 a {
@@ -143,8 +142,90 @@ aside p {
   padding: 0 40px 0 20px;
 }
 
+.imageBox {
+padding: 0px 0px 0px 0px;
+}
+
 footer {
   clear: both;
   text-align: center;
   padding: 10px;
+}
+
+#posts {
+  width: 700
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.post {
+  border-bottom: 1px solid #f2e2cd;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.readmore, .readless {
+  text-align: right;
+  margin-top: 30px;
+}
+.readmore a, .readless a {
+  color: #f2e2cd;
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 900px) {
+
+aside {
+  float: none;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+aside h2 {
+  font-size: 30px;
+  padding: 20px 40px 20px 20px;
+  text-align: center;
+}
+
+.hubbleBox {
+  visibility: hidden;
+}
+
+main {
+  width: 100%;
+  float: none;
+  padding: 20px;
+}
+
+
+
+}
+
+@media (max-width: 480px) {
+
+header li {
+  float: none;
+  display: block;
+  border: black solid 1px;
+}
+
+header h1 {
+  text-align: center;
+  padding: 0px 0px 20px 20px;
+}
+
+.hubbleBox {
+  visibility: hidden;
+}
+
+.aside {
+  width: 100%;
+  height: relative;
+  padding: 20px 40px 20px 20px;
+}
+
 }
