@@ -1,0 +1,150 @@
+/* Style.css */
+* {
+  box-sizing: border-box;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: #efeff2;
+}
+
+.container {
+    margin: auto;
+    width: 600 px;
+}
+
+header {
+  background: url(../images/PIA07906-1920x1200.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: 400;
+  padding: 40px 0px 20px 20px;
+}
+
+header li {
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  float: left;
+  display: inline-block;
+}
+
+.container-menu {
+  height: 50px;
+  background-color: #a69eb0;
+  /*background-color: #d9d9d9;*/
+}
+
+a {
+  text-decoration:none;
+}
+
+header a:link {
+  color: white;
+}
+
+header a:visited {
+  color: white;
+}
+
+header a:hover {
+  color: black;
+}
+
+a:link {
+  color: #efeff2;
+}
+
+a:visited {
+  color: #efeff2;
+}
+
+a:hover {
+  color: #f2e2cd;
+}
+
+main {
+  width: 75%;
+  float: left;
+  padding: 30px;
+}
+
+main input {
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #111;
+  padding: 0px 30px;
+  width: 400px;
+  font-family: helvetica, arial, sans-serif;
+  height: 72px;
+  line-height: 74px;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+main h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+main li {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+main ul {
+  padding-left: 30px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+aside {
+  padding: 20px 0 0 0;
+  float: left;
+  width: 25%;
+}
+
+aside img {
+  width: 100%;
+  height: relative;
+  padding: 20px 40px 20px 20px;
+}
+
+aside h2 {
+  font-size: 30px;
+  padding: 20px 40px 20px 20px;
+}
+
+aside p {
+  font-size: 12px;
+  font-style: italic;
+  padding: 0 40px 0 20px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+}
