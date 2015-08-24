@@ -25,7 +25,6 @@ body {
 
 .container {
     margin: 0px auto;
-    max-width: 1200px;
     width: 100%;
 }
 
@@ -85,15 +84,19 @@ main {
   padding: 30px;
 }
 
-main input {
+input {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   background: #fff;
   border: 1px solid #111;
-  padding: 0px 30px;
-  width: 400px;
-  font-family: helvetica, arial, sans-serif;
-  height: 72px;
-  line-height: 74px;
+  padding: 0px 20px;
+  width: 100%;
+  line-height: 50px;
+}
+
+form {
+  width: 100%;
+  padding: 50px 100px 0px 100px;
 }
 
 main p {
@@ -143,7 +146,11 @@ aside p {
 }
 
 .imageBox {
-padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+img {
+  margin-top: 60px;
 }
 
 footer {
@@ -153,7 +160,7 @@ footer {
 }
 
 #posts {
-  width: 700
+  width: 700;
   display: inline-block;
   margin-right: 20px;
 }
@@ -201,7 +208,10 @@ main {
   padding: 20px;
 }
 
-
+input {
+  float: left;
+  padding-right: 100px;
+}
 
 }
 
@@ -222,9 +232,14 @@ header h1 {
   visibility: hidden;
 }
 
+input {
+  margin: 0 0 0 0;
+  float: left;
+}
+
 .aside {
   width: 100%;
-  height: relative;
+  height: relative
   padding: 20px 40px 20px 20px;
 }
 
