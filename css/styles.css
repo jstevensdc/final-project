@@ -24,13 +24,13 @@ body {
 }
 
 .container {
-    margin: auto;
-    width: 600 px;
+    margin: 0px auto;
+    width: 100%;
 }
 
 header {
-  background: url(../images/PIA07906-1920x1200.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
+  background: url(../images/PIA07906-1920x1200.jpg) no-repeat center top rgb(134,141,157);*/
+  background-size: cover;*/
 }
 
 header h1 {
@@ -47,9 +47,7 @@ header li {
 }
 
 .container-menu {
-  height: 50px;
   background-color: #a69eb0;
-  /*background-color: #d9d9d9;*/
 }
 
 a {
@@ -86,15 +84,19 @@ main {
   padding: 30px;
 }
 
-main input {
+input {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   background: #fff;
   border: 1px solid #111;
-  padding: 0px 30px;
-  width: 400px;
-  font-family: helvetica, arial, sans-serif;
-  height: 72px;
-  line-height: 74px;
+  padding: 0px 20px;
+  width: 100%;
+  line-height: 50px;
+}
+
+form {
+  width: 100%;
+  padding: 50px 100px 0px 100px;
 }
 
 main p {
@@ -143,8 +145,102 @@ aside p {
   padding: 0 40px 0 20px;
 }
 
+.imageBox {
+  padding: 0px 0px 0px 0px;
+}
+
+img {
+  margin-top: 60px;
+}
+
 footer {
   clear: both;
   text-align: center;
   padding: 10px;
+}
+
+#posts {
+  width: 700;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.post {
+  border-bottom: 1px solid #f2e2cd;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.readmore, .readless {
+  text-align: right;
+  margin-top: 30px;
+}
+.readmore a, .readless a {
+  color: #f2e2cd;
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 900px) {
+
+aside {
+  float: none;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+aside h2 {
+  font-size: 30px;
+  padding: 20px 40px 20px 20px;
+  text-align: center;
+}
+
+.hubbleBox {
+  visibility: hidden;
+}
+
+main {
+  width: 100%;
+  float: none;
+  padding: 20px;
+}
+
+input {
+  float: left;
+  padding-right: 100px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+header li {
+  float: none;
+  display: block;
+  border: black solid 1px;
+}
+
+header h1 {
+  text-align: center;
+  padding: 0px 0px 20px 20px;
+}
+
+.hubbleBox {
+  visibility: hidden;
+}
+
+input {
+  margin: 0 0 0 0;
+  float: left;
+}
+
+.aside {
+  width: 100%;
+  height: relative
+  padding: 20px 40px 20px 20px;
+}
+
 }
