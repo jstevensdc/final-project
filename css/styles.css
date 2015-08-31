@@ -19,7 +19,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: black;
+  background-color: #0F0F1C;
   color: #efeff2;
 }
 
@@ -47,7 +47,8 @@ header li {
 }
 
 .container-menu {
-  background-color: #a69eb0;
+  /*background-color: #a69eb0;*/
+  background-color: #59967B;
 }
 
 a {
@@ -55,33 +56,40 @@ a {
 }
 
 header a:link {
-  color: white;
+  color: #0F0F1C;
 }
 
 header a:visited {
-  color: white;
+  color: #0F0F1C;
 }
 
 header a:hover {
-  color: black;
+  color: #efeff2;
 }
 
 a:link {
-  color: #efeff2;
+  /*color: #efeff2;*/
+  color: #8A9170;
 }
 
 a:visited {
-  color: #efeff2;
+  /*color: #efeff2;*/
+  color: #8A9170;
 }
 
 a:hover {
-  color: #f2e2cd;
+  color: #efeff2;
 }
 
 main {
-  width: 75%;
+  /*width: 75%;*/
+  width: 100%;
   float: left;
   padding: 30px;
+}
+
+main h2 {
+  color: #8A9170;
 }
 
 input {
@@ -103,6 +111,29 @@ main p {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 20px;
+}
+
+.container .mainPage {
+  padding-top: 50px;
+  /*padding-bottom: 20px;*/
+}
+
+#viewingConditions {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+#currentHumidity {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+#moonCover {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
 }
 
 main h2 {
@@ -154,13 +185,14 @@ img {
 }
 
 footer {
+  width: 100%;
   clear: both;
   text-align: center;
   padding: 10px;
 }
 
 #posts {
-  width: 700;
+  width: 95%;
   display: inline-block;
   margin-right: 20px;
 }
@@ -176,7 +208,7 @@ footer {
   margin-top: 30px;
 }
 .readmore a, .readless a {
-  color: #f2e2cd;
+  /*color: #f2e2cd;*/
   font-weight: 600;
 }
 
@@ -187,15 +219,16 @@ footer {
 @media (max-width: 900px) {
 
 aside {
-  float: none;
-  width: 100%;
-  padding-bottom: 10px;
+  /*float: none;*/
+  /*width: 100%;*/
+  /*padding-bottom: 10px;*/
+  visibility: hidden;
 }
 
 aside h2 {
-  font-size: 30px;
-  padding: 20px 40px 20px 20px;
-  text-align: center;
+  /*font-size: 30px;*/
+  /*padding: 20px 40px 20px 20px;*/
+  /*text-align: center;*/
 }
 
 .hubbleBox {
@@ -225,7 +258,7 @@ header li {
 
 header h1 {
   text-align: center;
-  padding: 0px 0px 20px 20px;
+  padding: 10px 10px;
 }
 
 .hubbleBox {
@@ -238,9 +271,10 @@ input {
 }
 
 .aside {
-  width: 100%;
-  height: relative
-  padding: 20px 40px 20px 20px;
+  /*width: 100%;*/
+  /*height: relative*/
+  /*padding: 20px 40px 20px 20px;*/
+  visibility: hidden;
 }
 
 }
