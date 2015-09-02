@@ -217,10 +217,6 @@ main h2 {
     text-align: center;
 }
 
-#conditionsList {
-    width: 450px;
-}
-
 #conditionsList ul {
     margin: 0 auto;
     padding-top: 50px;
