@@ -1,83 +1,71 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="This is a web site for newbie amateur astronomers." />
-    <title>What Can I See Tonight?</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="This is a web site for newbie amateur astronomers." />
+        <title>What Can I See Tonight?</title>
 
-    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="../css/styles.css" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-      <div class="container clearfix">
-    <header>
-      <div class="container clearfix">
-            <h1>What Can I See Tonight?</h1>
-      </div>
-      <div class="container-menu clearfix">
-        <ul>
-          <li><a href="index.html">Main</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-
-    </header>
-
-    <main>
-<!--note to self - look at using animation effects to make the readmore and hide less abrupt. stagger could be use to use?  -->
-      <section id="posts">
-      					<article class="post">
-      						<h2>Getting Started</h2>
-                  <p>So you want to do observational astronomy. Excellent plan. So off you go to buy a telescope.</p>
-                  <p>
-                    Only there are a lot of telescopes to choose from. Reflective, refractive, which to choose? What size to get? And many of them aren't cheap. You might pay a lot for something that a) doesn't suit your needs and b) turns out to be less fun than you thought.
-                  </p>
-                  <p>So what do you really need to get started?</p>
-
-      						<p class="readmore"><a href="#">Read more &gt;</a></p>
-
-      						<p class="hide" id="show-this-on-click">
-                    Binoculars. Binoculars are a) generally less expensive b) easier to aim c) something that many of us already own.Of course, a given pair of binoculars won't necessarily be cheaper than a given telescope, but in general, you can get higher magnification for a lower cost. They're certainly no replacement for a telescope (for one thing, it's harder to aim it for someone else to look through), but they're certainly a decent way to get started. Even after getting a telescope, I still use my mine from time to time . . .
-                  </p>
-      						<p class="readless hide"><a href="#">Read less &gt;</a></p>
-      					</article>
-
-      					<article class="post">
-      						<h2>Dealing with Light Pollution</h2>
-      						<p>
-                    Unless you literally live in the middle of no where, you are highly likely to experience this. Unfortunately, there isn't much you can aside from (short term) go somewhere else to look at the stars (long term) advocate for less light pollution (probably a failing effort, sadly). There are telescope filters that can reduce the glare at least somewhat, though.
-                  </p>
-
-      						<p class="readmore"><a href="#">Read more &gt;</a></p>
-
-      						<p class="hide" id="show-this-on-click">
-                    What causes light pollution?
-                    The most immediate and obvious answer is light. Street lights, house lights, car lights. In general, a higher population tends to emit more light at night (perhaps most easily seen from a plane at night). However, local environmental conditions can also exacerbate that light - for instance, when the humidity get high enough, individual bits of air vapor (aerosols) literally scatter light across the sky . . .
-              </p>
-      						<p class="readless hide"><a href="#">Read less &gt;</a></p>
-
-      					</article>
-      				</section>
-
-            </main>
-  <!-- <aside> -->
-          <!-- <h2>What Can Hubble See?</h2> -->
-          <!-- <img src="../images/hubble_friday_08072015.jpg" alt="NGC 6818"> -->
-          <!-- <p>The planetary nebula NGC 6818, also known as the Little Gem Nebula, which is just over half a light-year across. <a href="http://www.nasa.gov/mission_pages/hubble/multimedia/index.html?id=368246">(image courtesy of NASA)</a></p> -->
-          <!--Some kind of RSS feed/link to cool NASA images would be ideal. Could also just use a rotating selection of 10-15 saved images/captions that are randomly chosen via js.-->
-  <!-- </aside> -->
-      <footer>
+        <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700" rel="stylesheet" type="text/css">
+    </head>
+    <body>
         <div class="container clearfix">
-            <p>Questions? Contact <a href="#">Jen Stevens.</a></p>
-        </div>
-      </footer>
+            <header>
+                <div class="container clearfix">
+                    <h1>What Can I See Tonight?</h1>
+                </div>
+                <div class="container-menu clearfix">
+                    <ul>
+                        <li><a href="index.html">Main</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <section id="posts">
+      					   <article class="post">
+      			           <h2>Getting Started</h2>
+                        <p>
+                              So you want to do observational astronomy. Excellent plan. So off you go to buy a telescope.
+                        </p>
+                        <p>
+                              Only there are a lot of telescopes to choose from. Reflective, refractive, which to choose? What size to get? And many of them aren't cheap. You might pay a lot for something that a) doesn't suit your needs and b) turns out to be less fun than you thought.
+                        </p>
+                        <p>So what do you really need to get started?</p>
+                        <p class="readmore"><a href="#">Read more &gt;</a></p>
 
-    </div>
-    <script src="../js/jquery.js"></script>
-		<script src="../js/index.js"></script>
-  </body>
+      						      <p class="hide" id="show-this-on-click">
+                              Binoculars. Binoculars are a) generally less expensive b) easier to aim c) something that many of us already own. They're certainly no replacement for a telescope (for one thing, it's harder to aim it for someone else to look through), but they're certainly a decent way to get started. Even after getting a telescope, I still use my binoculars from time to time.
+                        </p>
+      						      <p class="readless hide"><a href="#">Read less &gt;</a></p>
+      					    </article>
+
+      					    <article class="post">
+      						      <h2>Dealing with Light Pollution</h2>
+      						      <p>
+                            Unless you literally live in the middle of no where, you are highly likely to experience light pollution. Unfortunately, there isn't much you can do aside from (short term) go somewhere else to look at the stars or (long term) advocate for less light pollution, whixh is probably a lost cause, unfortunately.
+                        </p>
+      						      <p class="readmore"><a href="#">Read more &gt;</a></p>
+
+      						      <p class="hide" id="show-this-on-click">
+                            What causes light pollution? The most immediate and answer is light - street lights, house lights, car lights, and so forth. In general, a higher population of people tends to emit more night time light. However, local environmental conditions can also exacerbate that light - for instance, when the humidity get high enough, individual bits of air vapor (aerosols) literally scatter light across the sky, creating a somewhat milky effect.
+                        </p>
+      						      <p class="readless hide"><a href="#">Read less &gt;</a></p>
+      					    </article>
+      				  </section>
+            </main>
+            <footer>
+                <div class="container clearfix">
+                  <p>
+                      Site by <a href="#">Jen Stevens.</a> Viewing conditions data by <a href="http://www.wunderground.com/weather/api">Weather Underground.</a>
+                  </p>
+                </div>
+            </footer>
+        </div>
+        <script src="../js/jquery.js"></script>
+		    <script src="../js/index.js"></script>
+    </body>
 </html>
