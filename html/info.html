@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,9 +7,8 @@
 
         <link rel="stylesheet" href="../css/reset.css" type="text/css" />
         <link rel="stylesheet" href="../css/styles.css" type="text/css" />
-        <link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700" rel="stylesheet" type="text/css">
     </head>
-
     <body>
         <div class="container clearfix">
             <header>
@@ -27,27 +25,19 @@
                 </div>
             </header>
             <main>
-                <div class="container clearfix">
-                    <h2>Enter your zip code to see the current viewing conditions</h2>
-                    <form>
-                        <input type="text" maxlength="5" name="zipCode" id="inputZip" placeholder="Enter your 5 digit zip code" required>
-                        <input type="submit" value="Submit" id="submit-btn">
-                    </form>
-                </div>
-                <div class="container clearfix" id="conditionsList">
-                    <ul class="mainPage">
-                        <li id="viewingConditions">Visibility (i.e. Cloudy, Rain, Clear)</li>
-                        <li id="currentHumidity">Humidity Percentage</li>
-                        <li id="moonCover">% of the moon that's visible</li>
-                    </ul>
-                    <a id="humidity" href="info.html">(Why humidity matters)</a>
-                </div>
+                <h2>Why Does Humidity Matter?</h2>
+                <p>
+                    Humidity matters because it can affect how bright the sky is - when the humidity is high enough, individual bits of air vapor (aerosols) literally scatter light across the sky, creating a somewhat milky effect and excerbating the effects of light pollution. High humidity can also cause water condensation on lenses and other telescope parts.
+                </p>
+                <p>
+                    However, high humidity can also be helpful - for instance, it can help decrease the "twinkling" effect often observed because of the refraction of star light through layers of air.
+                </p>
             </main>
             <footer>
                 <div class="container clearfix">
-                  <p>
-                      Site by <a href="#">Jen Stevens.</a> Viewing conditions data by <a href="http://www.wunderground.com/weather/api">Weather Underground.</a>
-                  </p>
+                <p>
+                    Site by <a href="#">Jen Stevens.</a> Viewing conditions data by <a href="http://www.wunderground.com/weather/api">Weather Underground.</a>
+                </p>
                 </div>
             </footer>
         </div>
