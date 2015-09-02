@@ -217,26 +217,22 @@ main h2 {
     text-align: center;
 }
 
-/*#conditionsList {*/
-    /*width: 450px;*/
-/*}*/
+#conditionsList {
+    width: 450px;
+}
 
-/*#conditionsList ul {*/
-    /*margin: 0 auto;*/
-    /*padding-top: 50px;*/
-/*}*/
+#conditionsList ul {
+    margin: 0 auto;
+    padding-top: 50px;
+}
 
-/*form {*/
-    /*margin: 0 auto;*/
-<<<<<<< HEAD
-    /*padding: 0;*/
-=======
-  /*padding: 0;*/
->>>>>>> master
-/*}*/
+form {
+    margin: 0 auto;
+    padding: 0;
+}
 
-/*body {*/
-    /*padding: 0;*/
-/*}*/
+body {
+    padding: 0;
+}
 
 }
