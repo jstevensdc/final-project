@@ -99,7 +99,7 @@ input {
 
 form {
     width: 310px;
-    padding: 20px 0px 0px 30px;
+    padding: 20px 0px 0px 100px;
 }
 
 main p {
@@ -113,13 +113,14 @@ main p {
 }
 
 #humidity {
-  font-size: 20px;
-  line-height: 30px;
-  padding-left: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 100px;
 }
 
 #conditionsList {
     display: none;
+    float: right;
 }
 
 #viewingConditions {
@@ -138,6 +139,12 @@ main p {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 20px;
+}
+
+#conditionsList ul {
+    padding-left: 100px;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 main h2 {
@@ -192,12 +199,13 @@ footer {
     padding: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 510px) {
 
 header li {
     float: none;
     display: block;
     border: black solid 1px;
+    text-align: center;
 }
 
 header h1 {
@@ -205,8 +213,26 @@ header h1 {
     padding: 10px 10px;
 }
 
+main h2 {
+    text-align: center;
+}
+
+#conditionsList {
+    width: 450px;
+}
+
+#conditionsList ul {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
 form {
     margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    padding: 0;
 }
 
 }
